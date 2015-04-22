@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Demo</title>
+
+</head>
+<body bgcolor="Black" style="align: auto">
+<div style="width:auto ; margin-left:100px;margin-right:auto">
+	<canvas id="canvas" width="378" height="600"
+			style="border: 1px dashed #333333; background-color: #000000;">
+	</canvas>
+</div>
+
+<script src="../../libs/jquery.js"></script>
+<script src="../../libs/sz/SZ.js"></script>
+<script src="../../libs/sz/logic/FunctionList.js"></script>
+<script>
+
+	$(document).ready(function() {
+		console.log("ready");
+//		var canvas = document.getElementById("canvas");
+		var f1 = function($args) {
+			console.log("f1 : $args = " + $args);
+			var a0 = $args[0];
+			console.log("f1 with " + a0);
+		};
+		var f2 = function() {
+			console.log("f2");
+		};
+		var f3 = function() {
+			console.log("f3");
+		};
+		var f4 = function() {
+			console.log("f4");
+		};
+
+		var render = SZ.FunctionList([f1,f2,f3,f4]);
+		render.run(["hello","pfft"]);
+
+	});
+
+
+</script>
+</body>
+</html>

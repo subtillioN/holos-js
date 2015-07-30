@@ -1,0 +1,9 @@
+{
+    "name": "env",
+    "version": "0.0.1",
+    "main": "env.js",
+    "private": true,
+    "plugin": {
+        "consumes": [ "eventbus" ]
+    }
+}

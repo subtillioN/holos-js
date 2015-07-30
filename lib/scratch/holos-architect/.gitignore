@@ -66,5 +66,5 @@ build/Release
 node_modules
 
 bk
-
-res
+lib/modules
+*res

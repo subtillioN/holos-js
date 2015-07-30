@@ -1,10 +1,10 @@
 {
-    "name": "cook",
+    "name": "version",
     "version": "0.0.1",
-    "main": "cook.js",
+    "main": "version.js",
     "private": true,
     "plugin": {
         "consumes": [ "eventbus" ],
-        "provides": [ "cook" ]
+        "provides": [ ]
     }
 }

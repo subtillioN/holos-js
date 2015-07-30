@@ -1,7 +1,7 @@
 {
-    "name": "cooking-reactor",
+    "name": "build",
     "version": "0.0.1",
-    "main": "react-on-cooking.js",
+    "main": "build.js",
     "private": true,
     "plugin": {
         "consumes": [ "eventbus" ],

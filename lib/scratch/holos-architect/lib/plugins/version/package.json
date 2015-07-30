@@ -4,7 +4,7 @@
     "main": "version.js",
     "private": true,
     "plugin": {
-        "consumes": [ "eventbus" ],
+        "consumes": [ "base" ],
         "provides": [ "version" ]
     }
 }

@@ -1,12 +1,12 @@
 {
-  "name": "env",
+  "name": "base",
   "version": "0.0.1",
-  "main": "env.js",
+  "main": "base.js",
   "private": true,
   "plugin": {
     "consumes": [
-      "base"
+      "eventbus"
     ],
-    "provides":["env"]
+    "provides":["base"]
   }
 }

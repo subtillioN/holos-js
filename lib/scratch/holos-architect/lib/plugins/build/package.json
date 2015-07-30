@@ -1,10 +1,14 @@
 {
-    "name": "build",
-    "version": "0.0.1",
-    "main": "build.js",
-    "private": true,
-    "plugin": {
-        "consumes": [ "eventbus" ],
-        "provides": [ ]
-    }
+  "name": "build",
+  "version": "0.0.1",
+  "main": "build.js",
+  "private": true,
+  "plugin": {
+    "consumes": [
+      "eventbus"
+    ],
+    "provides": [
+      "build"
+    ]
+  }
 }

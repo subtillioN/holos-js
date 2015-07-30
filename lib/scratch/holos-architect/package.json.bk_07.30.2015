@@ -8,12 +8,5 @@
   },
   "devDependencies": {
     "log4js": "^0.6.26"
-  },
-  "plugins": [
-    "version",
-    "env",
-    "build",
-    "eventbus",
-    "yuppies"
-  ]
+  }
 }

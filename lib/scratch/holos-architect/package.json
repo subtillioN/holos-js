@@ -10,10 +10,13 @@
     "log4js": "^0.6.26"
   },
   "plugins": [
-    "version",
-    "env",
+    "base",
     "build",
+    "env",
     "eventbus",
-    "base"
+    "logger",
+    "page",
+    "post",
+    "version"
   ]
 }

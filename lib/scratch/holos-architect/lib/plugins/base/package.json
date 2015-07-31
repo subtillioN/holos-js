@@ -5,7 +5,8 @@
   "private": true,
   "plugin": {
     "consumes": [
-      "eventbus"
+      "eventbus",
+      "logger"
     ],
     "provides":["base"]
   }

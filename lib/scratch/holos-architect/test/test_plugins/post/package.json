@@ -1,12 +1,13 @@
 {
-  "name": "base",
+  "name": "post",
   "version": "0.0.1",
-  "main": "base.js",
+  "main": "post.js",
   "private": true,
   "plugin": {
     "consumes": [
-      "eventbus"
     ],
-    "provides":["base"]
+    "provides": [
+      "post"
+    ]
   }
 }

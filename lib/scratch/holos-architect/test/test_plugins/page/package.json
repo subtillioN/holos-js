@@ -1,12 +1,13 @@
 {
-  "name": "base",
+  "name": "page",
   "version": "0.0.1",
-  "main": "base.js",
+  "main": "page.js",
   "private": true,
   "plugin": {
     "consumes": [
-      "eventbus"
     ],
-    "provides":["base"]
+    "provides": [
+      "page"
+    ]
   }
 }

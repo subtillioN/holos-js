@@ -1,11 +1,11 @@
 {
-  "name": "core",
+  "name": "nuc",
   "version": "0.0.1",
-  "main": "core.js",
+  "main": "nuc.js",
   "private": true,
   "plugin": {
     "consumes": [
     ],
-    "provides":["core"]
+    "provides":["nuc"]
   }
 }

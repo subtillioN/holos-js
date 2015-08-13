@@ -5,6 +5,8 @@
   "private": true,
   "plugin": {
     "consumes": [],
-    "provides":["logger"]
+    "provides": [
+      "logger"
+    ]
   }
 }

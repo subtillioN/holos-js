@@ -5,8 +5,7 @@
   "private": true,
   "plugin": {
     "consumes": [
-      "base",
-      "env"
+      "base"
     ],
     "provides": [
       "build"

@@ -1,0 +1,12 @@
+{
+  "name": "holos",
+  "description": "",
+  "version": "0.0.1",
+  "author": "",
+  "dependencies": {
+    "architect": "0.1.4"
+  },
+  "devDependencies": {
+    "log4js": "^0.6.26"
+  }
+}

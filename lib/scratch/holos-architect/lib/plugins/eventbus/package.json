@@ -4,7 +4,6 @@
     "main": "eventbus.js",
     "private": true,
     "plugin": {
-        "consumes": [ "logger" ],
         "provides": [ "eventbus" ]
     }
 }

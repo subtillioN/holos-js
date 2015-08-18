@@ -1,0 +1,10 @@
+{
+    "name": "enversion",
+    "version": "0.0.1",
+    "main": "enversion.js",
+    "private": true,
+    "plugin": {
+        "consumes": [ "base" ],
+        "provides": [ "enversion" ]
+    }
+}

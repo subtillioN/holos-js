@@ -1,0 +1,13 @@
+{
+  "name": "post",
+  "version": "0.0.1",
+  "main": "post.js",
+  "private": true,
+  "plugin": {
+    "consumes": [
+    ],
+    "provides": [
+      "post"
+    ]
+  }
+}

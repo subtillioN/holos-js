@@ -1,0 +1,11 @@
+{
+  "name": "nuc",
+  "version": "0.0.1",
+  "main": "nuc.js",
+  "private": true,
+  "plugin": {
+    "consumes": [
+    ],
+    "provides":["nuc"]
+  }
+}

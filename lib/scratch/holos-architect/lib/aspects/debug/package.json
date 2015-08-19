@@ -1,12 +1,12 @@
 {
-  "name": "logger",
+  "name": "debug",
   "version": "0.0.1",
-  "main": "logger.js",
+  "main": "debug.js",
   "private": true,
   "plugin": {
     "consumes": [],
     "provides": [
-      "logger"
+      "debug"
     ]
   }
 }

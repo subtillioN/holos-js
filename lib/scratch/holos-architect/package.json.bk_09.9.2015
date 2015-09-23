@@ -8,7 +8,6 @@
   },
   "devDependencies": {
     "check-types": "^3.3.1",
-    "log4js": "^0.6.26",
-    "embryon": "https://github.com/SpinbitZ/embryon.git"
+    "log4js": "^0.6.26"
   }
 }

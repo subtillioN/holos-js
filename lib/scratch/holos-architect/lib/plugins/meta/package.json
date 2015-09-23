@@ -1,0 +1,9 @@
+{
+    "name": "meta",
+    "version": "0.0.1",
+    "main": "meta.js",
+    "private": true,
+    "plugin": {
+        "provides": [ "meta" ]
+    }
+}

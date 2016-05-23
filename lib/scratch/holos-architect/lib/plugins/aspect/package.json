@@ -1,0 +1,9 @@
+{
+    "name": "aspect",
+    "version": "0.0.1",
+    "main": "aspect.js",
+    "private": true,
+    "plugin": {
+        "provides": [ "aspect" ]
+    }
+}
